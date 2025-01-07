@@ -6,6 +6,7 @@ export default function ToDoCard(props) {
     <li className="todoItem">
       {children}
       <div className="actionsContainer">
+        <input type="checkbox" />
         <button
           onClick={() => {
             handleEditTodo(index);
